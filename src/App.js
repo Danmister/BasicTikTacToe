@@ -36,6 +36,7 @@ export default function Board() {
 
     return (
         <React.Fragment>
+            <h1>Dan's Brain Fog Extravaganza</h1>
             <div className="status">{status}</div>
             <div className="board-row">
                 <Square value={squares[0]} onSquareClick={() => handleClick(0)}/>
